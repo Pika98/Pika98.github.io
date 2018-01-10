@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+/*font-family: 'Saira Condensed', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Changa', sans-serif; */
+
+body
+{
+	width:100%;
+	height:200%;
+	top:0;
+	padding:0;
+	margin:0;
+	max-width:100%;
+}
+
+.sticky
+{
+	position: fixed;
+	top: 0;
+}
+.header
+{
+	height: 20vh;
+}
+.switch
+{
+	position: relative;
+	top: 7vh;
+	left: 5vw;
+	display: inline-block;
+	width: 6vw;
+	height: 6vh;
+}
+
+.switch input {display:none;}
+
+.slider
+{
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #9F9F9F;
+	transition: .4s;
+}
+
+.slider:before
+{
+	position: absolute;
+	top: 1.5vh;
+	content: "";
+	height: 3vh;
+	width: 2vw;
+	left: 1vw;
+	right: 1vw;
+	background-color: white;
+	transition: .4s;
+}
+.icon
+{
+	width: 5vw;
+}
+.title
+{
+	font-family: 'Changa', sans-serif;
+	min-height: 70px;
+	z-index:1;
+}
+.fancy
+{
+	font-family: 'Great Vibes', cursive;
+}
+input:checked + .slider
+{
+	background-color: rgba(255,215,0,1.00);
+}
+input:checked + .slider:before
+{
+	transform: translateX(2vw);
+}
+
+#header
+{
+	background-color: rgba(0,0,0,0.40);
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#headerLogo
+{
+	display: block;
+}
+#headerCentre
+{
+	margin:auto;
+}
+#headerCentre a
+{
+	padding: auto;
+	overflow: hidden;
+	width: 5vw;
+	height: 5vh;
+}
+#headerLeft
+{
+	width: 45vw;
+	float: left;
+	left: 0;
+}
+#headerLeft h3
+{
+	font-size: 5vh;
+	position: relative;
+	bottom: 1.5vh;
+	left: 7vw;
+	color: silver;
+	margin:auto;
+}
+#headerRight
+{
+	width: 45vw;
+	float: right;
+	position:relative;
+	bottom: 15vh;
+}
+#headerRight ul
+{
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	float:right;
+	font-size: 5vh;
+}
+#headerRight li
+{
+	color:white;
+	display:inline;
+	margin:0vh .5vw;
+	padding: 0vh .5vw;
+}
+#headerRight a
+{
+	display:none;
+	padding:4vw;
+}
+#headerRight li:hover
+{
+	color: black;
+	background-color:white;
+	transition:.4s;
+}
+#introSection
+{
+	width: 100vw;
+	margin:auto;
+	position:static;
+	top:20vh;
+	height: 50vh;
+}
+#introText
+{
+	position:absolute;
+	top: 20vh;
+	left: 3em;
+}
+#daftHorizontalSpread
+{
+	width: 100vw;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	margin:0;
+}
+#daftVerticalSpread
+{
+	box-sizing: border-box;
+	width: 100vw;
+	display: none;
+	z-index: -1;
+	margin:0;
+}
+
+@media only screen and (max-width: 500px)
+{
+	#daftHorizontalSpread
+	{
+		display: none;
+	}
+	#daftVerticalSpread
+	{
+		display: block;
+	}
+	#introText
+	{
+		color:silver;
+	}
+}
+#shopSlider
+{
+	position:static;
+	height: 50vh;
+	width:100%;
+	background-color: black;
+}

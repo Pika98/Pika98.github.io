@@ -1,8 +1,23 @@
 //Initialise some variables, global in case use is required in multiple functions
 var currentSlide = 0;
 var interval = 4000;
-
-
+function userData()
+{
+	document.getElementById('submit').onclick = function()
+	{
+		console.log("clicked");
+		var input = document.getElementById('response').value;
+		var storedJson = JSON.stringify(input);
+		localStorage.setItem("response", storedJson);
+	};
+	document.getElementById('load').onclick = function()
+	{
+		console.log("clicked load");
+		var loadedJson = localStorage.getItem("response");
+		var text = JSON.parse(loadedJson);
+		text = document.getElementById('response');
+	};
+}
 var slides = document.getElementsByClassName("shopSlide");
 function init() //Simple log checker to ensure 
 {
@@ -28,16 +43,7 @@ function sliderColour()
 	sliderColour = document.getElementById('colourInput').style.backgroundColor;
 	themeColour = sliderColour;
 }
-function userResponse()
-{
-	var storeText = document.getElementById('response');
-	var stored = JSON.stringify(storeText);
-	if(document.getElementById('submit').clicked == true)
-	{
-		console.log('clicked');
-		document.getElementById('response').innerHTML = stored;
-	}
-}
+
 //Window on load calls other functions
 window.onload = function()
 {
@@ -45,6 +51,6 @@ window.onload = function()
 	init();
 	slideShow();
 	sliderColour();
-	userResponse();
+	userData();
 };
 

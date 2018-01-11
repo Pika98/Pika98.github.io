@@ -240,13 +240,6 @@ input:checked + .slider:before
 }
 #bannerImage
 {
-	height:auto;
-	width:100%;
-	padding:0;
-	margin:auto;
-}
-#bannerImage img
-{
 	width:100%;
 }
 @media only screen and (max-width: 600px)

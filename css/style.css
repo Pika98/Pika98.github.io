@@ -400,5 +400,27 @@ input:checked + .slider:before
 #log
 {
 	height:auto;
+	width:90%;
+	padding:2%
+}
+#log h1{color:white; font-family: 'Great Vibes', cursive;}
+#log h3{color:white; font-family: 'Saira Condensed', sans-serif;}
+#response
+{
+	margin:1%;
+	padding:0.2%;
+}
+#submit
+{
+	padding:0 2%
+}
+#youTube
+{
+	height: auto;
 	width:100%;
+	margin:auto;
+}
+#video
+{
+	margin:0 0vw 0 40vw;
 }

@@ -28,7 +28,16 @@ function sliderColour()
 	sliderColour = document.getElementById('colourInput').style.backgroundColor;
 	themeColour = sliderColour;
 }
-
+function userResponse()
+{
+	var storeText = document.getElementById('response');
+	var stored = JSON.stringify(storeText);
+	if(document.getElementById('submit').clicked == true)
+	{
+		console.log('clicked');
+		document.getElementById('response').innerHTML = stored;
+	}
+}
 //Window on load calls other functions
 window.onload = function()
 {
@@ -36,5 +45,6 @@ window.onload = function()
 	init();
 	slideShow();
 	sliderColour();
+	userResponse();
 };
 

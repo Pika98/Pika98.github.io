@@ -422,7 +422,6 @@ input:checked + .slider:before
 }
 #video
 {
-	height:18em;
-	width: 32em;
-	margin:0 0vw 0 33vw;
+	height:10em;
+	width: 20em;
 }

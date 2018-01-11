@@ -316,7 +316,7 @@ input:checked + .slider:before
 	font-family: 'Saira Condensed', sans-serif;
 	display: flex;
 }
-#homework h2{font-family: 'Great Vibes', cursive; font-size: 15vh;}
+#homework h2{font-family: 'Great Vibes', cursive; font-size: 2em;}
 #discovery
 {
 	width:100%;
@@ -325,7 +325,7 @@ input:checked + .slider:before
 	font-family: 'Saira Condensed', sans-serif;
 	display: flex;
 }
-#discovery h2{font-family: 'Great Vibes', cursive; font-size: 15vh;}
+#discovery h2{font-family: 'Great Vibes', cursive; font-size: 2em;}
 #human
 {
 	width:100%;
@@ -335,7 +335,7 @@ input:checked + .slider:before
 	color:white;
 	display: flex;
 }
-#human h2{font-family: 'Great Vibes', cursive; font-size: 15vh;}
+#human h2{font-family: 'Great Vibes', cursive; font-size: 2em;}
 #random
 {
 	width:100%;
@@ -344,7 +344,7 @@ input:checked + .slider:before
 	font-family: 'Saira Condensed', sans-serif;
 	display: flex;
 }
-#random h2{font-family: 'Great Vibes', cursive; font-size: 15vh;}
+#random h2{font-family: 'Great Vibes', cursive; font-size: 2em;}
 .descriptionBox
 {
 	padding:2%;

@@ -238,6 +238,13 @@ input:checked + .slider:before
 	top: 20vh;
 	left: 3em;
 }
+#bannerImage
+{
+	height:auto;
+	width:100%;
+	padding:0;
+	margin:auto;
+}
 #bannerImage img
 {
 	width:100%;

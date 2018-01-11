@@ -8,7 +8,8 @@ function googleMap()
 		center: location
 	});
 	var marker = new google.maps.Marker({
-		position: paris,
+		position: location,
+		title: 'Home Of Daft Punk',
 		map:map
 	});
 }

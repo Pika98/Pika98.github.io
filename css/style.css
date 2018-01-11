@@ -393,6 +393,13 @@ input:checked + .slider:before
 		height:auto;
 	}
 }
+#mapIntro
+{
+	color: white;
+	margin:auto;
+	font-family: 'Changa', sans-serif;
+	text-align: center;
+}
 #map
 {
 	width:100%;

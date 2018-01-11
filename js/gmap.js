@@ -12,6 +12,7 @@ function googleMap()
 		title: 'Home Of Daft Punk',
 		map:map
 	});
+	
 }
 window.onload = function()
 {

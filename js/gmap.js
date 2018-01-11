@@ -7,6 +7,10 @@ function googleMap()
 		zoom: 10,
 		center: location
 	});
+	var marker = new google.maps.Marker({
+		position: paris,
+		map:map
+	});
 }
 window.onload = function()
 {

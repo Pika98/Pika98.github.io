@@ -391,3 +391,8 @@ input:checked + .slider:before
 		height:auto;
 	}
 }
+#map
+{
+	width:100%;
+	height:400px;
+}

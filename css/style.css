@@ -414,7 +414,7 @@ input:checked + .slider:before
 	padding:2%
 }
 #log h1{color:white; font-family: 'Great Vibes', cursive;}
-#log h3{color:white; font-family: 'Saira Condensed', sans-serif;}
+#log p{color:white; font-family: 'Saira Condensed', sans-serif;}
 #response
 {
 	margin:1%;

@@ -277,6 +277,7 @@ input:checked + .slider:before
 	}
 	#headerLeft{display:none;}
 	#colourStatus{display:none;}
+	#headerLogo{position:relative; right:100%;}
 }
 .shopSlide
 {
